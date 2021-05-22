@@ -19,6 +19,7 @@ import Row from './src/row';
 import Cell from './src/cell';
 import BaseStore from './src/view/base/store';
 import Dispatcher from './src/util/dispatcher';
+import { Search } from './src/view/plugin/search/search';
 
 export {
   Grid,
@@ -37,6 +38,7 @@ export {
   PluginPosition,
   PluginBaseComponent,
   PluginBaseProps,
+  Search,
   h,
   createElement,
   Component,
